@@ -25,7 +25,7 @@ variable "project_name" {
 variable "existing_project_id" {
   type        = string
   description = "If there is an existing Google Cloud project you want to use, define it here. If this is left as null, one will be created for you."
-  default     = null
+  default     = "dunder-mifflin-363209"
 }
 
 variable "google_cloud_region" {
@@ -42,5 +42,5 @@ variable "google_billing_account" {
 
 variable "use_cloud_run" { #Used to "enable" or "disable" a resource conditionally.
   type    = bool
-  default = false
+  default = true
 }

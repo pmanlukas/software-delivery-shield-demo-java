@@ -20,7 +20,7 @@ use_cloud_run = "true"
 ## If you have an existing Project ID that you want this to deploy into
 ## specify it below by un-commenting the line, and replace "sds-java-demo" with the
 ## project ID
-# existing_project_id = "sds-java-demo"
+existing_project_id = "dunder-mifflin-363209"
 
 ## If you want a project to be created for you, specify your Google Cloud Billing Account, specify it below 
 ## by un-commenting the line, and replace "00000-000000-0000" with the billing account number
